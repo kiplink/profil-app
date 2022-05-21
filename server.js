@@ -9,6 +9,7 @@ app.use('/', function (req, res) {
   //__dirname : It will resolve to your project folder.
 })
 const server = http.createServer(app)
-const port = 3000
-server.listen(port)
+const port = 8000
+const host = '0.0.0.0'
+server.listen(port, host)
 console.debug('Server listening on port ' + port)
