@@ -6,7 +6,7 @@ const port = 8000
 const host = '0.0.0.0'
 
 app.get('/', function (req, res) {
-  res.sendFile(__dirname + '/express/index.html')
+  res.sendFile(__dirname + '/' + 'index.html')
   //__dirname : It will resolve to your project folder.
 })
 
