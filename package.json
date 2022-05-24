@@ -2,9 +2,10 @@
     "name": "profil-test",
     "version": "1.0.0",
     "description": "",
-    "main": "app.js",
+    "main": "app.mjs",
+    "type": "module",
     "scripts": {
-        "start": "node app.js"
+        "start": "node app.mjs"
     },
     "dependencies": {
         "express": "^4.17.1"
